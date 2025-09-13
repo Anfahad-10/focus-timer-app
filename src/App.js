@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <h1>My Focus Timer App</h1>
         {/* 2. Use the component like an HTML tag */}
-        <Timer />
+        <Timer initialSeconds={300} />
       </header>
     </div>
   );
